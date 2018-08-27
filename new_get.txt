@@ -1,0 +1,12 @@
+git
+1.初始化git仓库：git init
+2.添加文件到仓库两步： git add <fileName> 可多次添加, git commit -m <message>
+3.查看当前仓库的状态,那些文件被修改：git status
+4.查看文件所做的修改:git diff <fileName>
+5.HEAD指向当前版本，git reset --hard cimmit_id 到达id指定版本
+6.查看仓库提交历史：git log
+7.查看仓库命令历史：git reflog
+8.暂存区： git add <fileName>命令将文件放置在暂存区，git commit -m <message>后，文件从暂存区转移到当前分支
+9.用版本库的版本替换工作区的版本: git checkout -- <fileName>
+10.用版本库的版本替换暂存区的版本: git reset HEAD <fileName>
+11.删除文件：git rm <fileName>
